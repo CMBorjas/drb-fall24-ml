@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Workspace for Fall 2024 Machine Learning course
 
 ## Week 4 (9/10, 9/12)
@@ -59,3 +60,6 @@ For this question, please choose option 2 and prepare the dataset.
 11. Care to explore more of the datasets?
 
 
+=======
+# ML_CMB_Fall_2024
+>>>>>>> 03fceb9bb0a699e4cb93945015bf835e6e371c15
