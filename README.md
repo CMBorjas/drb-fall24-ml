@@ -1,4 +1,64 @@
-<<<<<<< HEAD
+# How to install and use your personal repository.
+
+1. Clone the Original Repository
+
+Open your terminal in WSL and clone the original repository:
+
+bash
+
+git clone https://github.com/ashiskb/drb-fall24-ml.git
+cd drb-fall24-ml
+
+2. Create a New Personal Repository
+
+Go to your GitHub account and create a new repository (personal repository) for this project.
+3. Add Your Personal Repository as a Remote
+
+In your cloned folder, add your personal repository as another remote:
+
+bash
+
+git remote add personal https://github.com/<your-username>/<your-repository>.git
+
+4. Create Your Anaconda Environment
+
+Since you're using both the browser and VS Code version of Jupyter notebooks, create an Anaconda environment:
+
+bash
+
+conda create --name ml_project python=3.10
+conda activate ml_project
+
+Install the necessary packages (like Jupyter, matplotlib, scikit-learn, etc.):
+
+bash
+
+conda install jupyter matplotlib scikit-learn pandas
+
+5. Work on the Project
+
+Make any changes to the code, explore tasks, and complete assignments as needed. Use Jupyter either in VS Code or the browser version.
+6. Save Your Work and Push to Your Personal Repository
+
+After making changes, commit and push them to your personal repository:
+
+bash
+
+git add .
+git commit -m "Completed Week 4 tasks"
+git push personal main
+
+7. Pull Updates from the Original Repository
+
+To stay updated with the original repository, you can pull changes from it:
+# code
+bash
+
+git pull origin main
+
+This setup will help you work on the project, push to your personal repository, and pull updates from the original.
+
+
 # Workspace for Fall 2024 Machine Learning course
 
 ## Week 4 (9/10, 9/12)
@@ -59,7 +119,5 @@ For this question, please choose option 2 and prepare the dataset.
 10. Please briefly describe each of the 3 datasets (i.e., what the datasets are about)
 11. Care to explore more of the datasets?
 
-
-=======
 # ML_CMB_Fall_2024
->>>>>>> 03fceb9bb0a699e4cb93945015bf835e6e371c15
+# End
